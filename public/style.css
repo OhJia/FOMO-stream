@@ -1,0 +1,100 @@
+.navbar-header {
+/*	margin-right: auto;
+	margin-left: auto;*/
+	float: none;
+	text-align: center;
+}
+.navbar-brand {
+/*	margin-right: auto;
+	margin-left: auto;*/
+	float: none;
+	text-align: center;
+	display:inline-block;
+}
+
+.row {
+	margin-top: 50px;
+    background-color: #A7A9AC;
+}
+
+.sidebar {
+	position: fixed;
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	padding: 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	/*background-color: #f5f5f5;*/
+	/*border-right: 1px solid #eee;*/
+
+}
+
+.col-xs-6 {
+	text-align: left
+}
+
+.col-xs-4 img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 10px;
+	width: 150px;
+}
+.col-xs-2 {
+		padding-right: 0px;
+}
+
+li .arrow { /*** .arrow is child of li */
+	display:none;
+	position:absolute;
+	right: -21px;
+	top: 50%;
+	margin-top: 20px; /* negative 1/2 height of image for arrow to be dead center */
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	
+	border-right:15px solid #ffffff; 
+}
+
+li.selected .arrow{ /*** .selected describe li */
+	display:block;
+}
+
+.main {
+	background-color: #ffffff;
+	min-height: 700px;
+}
+
+.mainstream {
+	padding-top: 50px;
+	list-style: none;
+}
+
+.tweetmain {
+	list-style: none;
+	padding-left: 0px;
+	min-height: 65px;
+}
+
+.tweetmain h5 {
+	margin-top: 0px;
+}
+
+#tweets-area .container-fluid {
+	margin-bottom: 30px;
+}
+
+.col-xs-2 img {
+	max-width: 100%;
+	max-height: 100%;
+	text-align: right;
+	width: 70px;
+}
+
+.user {
+	margin-bottom: 100px;
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.10.4",
+    "servi": "0.0.7"
+  }
+}
